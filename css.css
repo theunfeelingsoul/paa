@@ -1,0 +1,16 @@
+.divider{
+	border-bottom: solid 1px #6e6e6e;
+}
+
+.jumbotron{
+	background-color: transparent;
+}
+
+.check-credit-form{
+	border: solid 1px #6e6e6e;
+	padding: 20px;
+}
+
+.home-img img{
+	width: 700px;
+}
