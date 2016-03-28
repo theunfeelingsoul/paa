@@ -1,16 +1,101 @@
 .divider{
-	border-bottom: solid 1px #6e6e6e;
+	border-bottom: solid 1px #ccc;
 }
 
 .jumbotron{
 	background-color: transparent;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .check-credit-form{
-	border: solid 1px #6e6e6e;
+	border: solid 1px #ccc;
 	padding: 20px;
 }
 
 .home-img img{
 	width: 700px;
+}
+
+.bottom-border{
+	border-bottom: solid 1px #ccc;
+}
+.right-border{
+	border-right: solid 1px #ccc;
+}
+
+.bottom-border-shade{
+	-webkit-box-shadow: 0 4px 4px -4px black;
+	-moz-box-shadow: 	0 4px 4px -4px black;
+	box-shadow: 		0 4px 4px -4px black;
+	/*overflow: hidden;*/
+}
+
+.home-sec-1-item{
+	height: 70px;
+	padding-top: 25px;
+}
+
+#btn-brown .btn-default{
+	background-image: none;
+	background-color: #e04403  !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+
+/* Need help */
+.need-help{
+	padding-top: 104px;
+}
+
+.need-help-top .glyphicon-credit-card{
+	padding-right: 10px;
+	color:#ccc;
+	/*border: solid 1px #ccc;*/
+	font-size: 30px;
+	height: 30px;
+	float: left;
+}
+
+.need-help-top{
+	padding-bottom: 20px;
+}
+
+
+.need-help-middle {
+	padding: 10px;
+
+}
+
+.need-help-bottom {
+	border-bottom: solid 1px #ccc;
+	padding: 30px 10px 30px 10px;
+}
+
+.need-help-bottom .glyphicon-earphone{
+	padding-right: 10px;
+	font-size: 30px;
+	float: left;
+	color: #ccc;
+}
+
+
+.need-help-box{
+	border-top: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+}
+
+
+/* PAGE CSSS*/
+.grey-back{
+	background-color: #F5F5F5;
+}
+
+/*footer*/
+#footer{
+	height: 100px;
+	color: #818181;
+	padding: 30px;
 }
