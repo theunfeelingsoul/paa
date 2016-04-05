@@ -1,0 +1,95 @@
+.home-img img{
+	width: 400px;
+}
+
+/*Home page form*/
+.check-credit-form{
+	border: solid 1px #ccc;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.block{
+	border: solid 1px #ccc;
+	padding: 20px;
+}
+
+.join-opt-head{
+	border-bottom: solid 1px #ccc;
+}
+
+.join-opt{
+	background-color: #f5f5f5;
+	border-bottom: solid 1px #ccc;
+}
+
+.join-opt-body{
+	/*padding-top: 15px;*/
+}
+
+.join-opt .btn{
+	/*text-align: center;*/
+	/*margin-left: 30%;*/
+	width: 400px;
+}
+
+/*profile*/
+.profile-img img{
+	width: 200px;
+}
+
+.profile-sidebar-img img{
+	width: 50px;
+}
+
+.profile-sidebar-img{
+	/*display: table;*/
+	padding-right: 10PX;
+}
+.profile-img{
+	padding-right: 10px;
+}
+
+.profile-card .card{
+	height:280px;	
+	/*overflow: hidden;*/
+}
+
+.profile-body .card-action{
+	/*height: 100px;*/
+	margin-top: 40px;
+}
+
+.page{
+	overflow: hidden;
+}
+.page .row{
+	margin-bottom: 0px;
+}
+
+footer.page-footer{
+	margin-top: 0px;
+}
+
+.form{
+	width: 300px;
+}
+
+/*memebrs*/
+/*.mem-img img{
+	width: 150px;
+	padding-right: 10px;
+}*/
+
+/*.mem-card .card .card-content{
+	padding-bottom: 10px;
+}
+*/
+
+.mem-card .small{
+	height: inherit;
+}
+
+.parallax img{
+	width: 100px;
+}

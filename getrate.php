@@ -15,46 +15,12 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 <body>
-
-	<nav class="navbar navbar-static-top">
-		<div class="container-fluid">
-			<div id=""></div>
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Project name</a>
-			</div>
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href=""></a></li>
-					<li class="dropdown">
-		              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
-		              <ul class="dropdown-menu">
-		                <li><a href="#">Action</a></li>
-		                <li><a href="#">Another action</a></li>
-		                <li><a href="#">Something else here</a></li>
-		                <li role="separator" class="divider"></li>
-		                <li class="dropdown-header">Nav header</li>
-		                <li><a href="#">Separated link</a></li>
-		                <li><a href="#">One more separated link</a></li>
-		              </ul>
-		            </li>
-				</ul>
-			</div>	
-			<div class="row">
-				<div class="divider"></div>
-			</div>
-		</div>
-	</nav>
+	<!-- header -->
+	<?php include 'includes/_header.php'; ?>
 
 	<div class="container-fluid grey-back">
 		<div class="row bottom-border">
 			<div class="container">
-				
 				<div class="col-md-6 col-md-offset-1">
 					<div class="jumbotron">
 						<h2>Get a custom rate in 1 click</h2>
@@ -144,16 +110,6 @@
 		</div>
 		
 	</div>
-	<!-- <div class="row">
-			<div class="divider"></div>
-		</div> -->	
-	<div id="footer">
-		<div class="container">
-			<div class="copyright">
-				<span class="glyphicon glyphicon-copyright-mark"></span>
-				2016 Paa All rights reserved
-			</div>
-		</div>
-	</div>
+	<?php include "includes/_footer.php" ?>
 </body>
 </html>

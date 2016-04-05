@@ -1,3 +1,51 @@
+/*Navigation*/
+
+.home-btn{
+	padding: 10px 40px 10px 40px;
+	width:100px;
+	border-radius: 3px;
+}
+
+
+
+
+.home-btn-sign{
+	border: solid 2px #000;
+	/*color: #;*/
+}
+
+.home-btn-join{
+	border: solid 2px #e04403;
+	color: #e04403;
+}
+.home-btn-sign:hover ,.home-btn-join:hover{
+	border: solid 2px #e04403;
+	background-color: #e04403;
+	color: #fff;
+}
+.menu li{
+	float: left;
+	list-style: none;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+#navbar ul li a:hover {
+	background-color: transparent;	
+}
+
+.navbar-static-top{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navbar a{
+	color: #4d4d4d;
+}
 .divider{
 	border-bottom: solid 1px #ccc;
 }
@@ -89,13 +137,93 @@
 
 
 /* PAGE CSSS*/
+body{
+	color: #4d4d4d;
+	/*font-size: 1px;*/
+}
 .grey-back{
 	background-color: #F5F5F5;
 }
 
+.card{
+	background-color: #fff;
+	padding: 20px;
+	-webkit-box-shadow: 4px 4px 4px -4px black;
+	-moz-box-shadow: 	4px 4px 4px -4px black;
+	box-shadow: 		4px 4px 4px -4px black;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+#full-height{
+	height: 100vh;
+
+}
 /*footer*/
 #footer{
 	height: 100px;
 	color: #818181;
 	padding: 30px;
 }
+
+/*user profile*/
+.profile-img img{
+	width: 100px;
+	
+}
+.profile-img{
+	padding-right: 10px;
+	float: left;
+}
+
+.profile-basic-data{
+
+}
+
+
+/*similar bsuiness*/
+.similar-panel-img img{
+	width:150px;
+}
+
+.similar-panel-img{
+	float: left;
+	padding-right: 10px;
+}
+
+.similar-panel-title{
+	font: bold;
+}
+
+.similar-panel-info{
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.similar-panel-info-head, 
+.similar-panel-info-body{
+	/*padding: 10px;*/
+}
+
+.similar-panel-info-head a{
+	
+}
+
+/*connections*/
+.connect-button{
+	height: 40px;
+	background-color: #ddd;
+	text-align: center;
+	padding-top: 10px;
+}	
+
+#connection .panel-body{
+	padding: 0px;
+}
+
+#connection-banner{
+	margin-top: 30px;
+}
+
+
