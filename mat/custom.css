@@ -1,5 +1,6 @@
 .home-img img{
-	width: 400px;
+	width: 573px;
+	padding-top: 129px;
 }
 
 /*Home page form*/
@@ -7,6 +8,10 @@
 	border: solid 1px #ccc;
 	padding: 20px;
 	overflow: hidden;
+}
+
+.home-sec-2  .btn-large{
+	    margin-top: 30px;
 }
 
 .block{
@@ -89,7 +94,68 @@ footer.page-footer{
 .mem-card .small{
 	height: inherit;
 }
+/*parallax*/
 
 .parallax img{
 	width: 100px;
+}
+
+.para-info{
+	color: #fff;
+	font-size: 50px;
+	padding-left: 40px;
+}
+
+
+.mem-search .mem-search-top{
+	background-color: #0aa89e;
+	margin: 10px;
+	padding: 5px 10px  5px  10px;
+}
+
+.mem-search .card-panel{
+	padding: 0px;
+}
+
+.mem-search-mid-img img{
+	width: 125px;
+}
+
+
+
+.mem-search-mid{
+	padding: 0px 20px 20px 20px ;
+} 
+
+.mem-search-mid-section:hover{
+	background-color: #f2f3f3;
+}
+.mem-search-mid-section{
+	padding-bottom: 20px;
+} 
+
+.mem-search-mid-section .section{
+	/*margin-right: 30px;*/
+}
+
+.mem-search-top .mem-search-input{
+	font-size:1.6em;
+	padding-left: 0rem;
+}
+.mem-search-top .input-field input[type=search]{
+	/*font-size:1.6em;*/
+	padding-left: 1rem;
+}
+
+
+.mem-search-top .input-field input[type=search]:focus {
+    background-color: transparent;
+    color: #f2f3f3;	
+     border-bottom: 1px solid #bcf2ee;
+}
+
+.mem-search-top .btn-large{
+	margin-top: -10px;
+	/*width: 50px;*/
+	/*height: 50px;*/
 }

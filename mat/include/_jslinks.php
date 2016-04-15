@@ -29,9 +29,12 @@ $('select').material_select();
             $scope.arr = [];
             // $scope.makeArray = function () {
                 $scope.arr.length = 0;
-                for (var i = 0; i < parseInt(6) ; i++) {
+                for (var i = 0; i < parseInt(4) ; i++) {
                     $scope.arr.push(i);
                 }
             // }
         });
-    </script>
+
+     
+
+</script>

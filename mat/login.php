@@ -10,7 +10,7 @@
 		<div class="container">
 			<div class="section">
 				<div class="row">
-				    <form class="col s6 offset-s3">
+				    <form class="col s6 offset-s3" action="profile.php">
 				    	<H4>Sign Into your account</H4>
 						
 						<div class="row">

@@ -15,8 +15,8 @@
 						<div class="responsive-img home-img">
 							<!-- <img src="../images/2.png"> -->
 							<!-- <img src="http://image.shutterstock.com/display_pic_with_logo/187633/352316402/stock-photo-female-designer-in-modern-office-working-on-laptop-352316402.jpg"> -->
-							<!-- <img src="http://image.shutterstock.com/display_pic_with_logo/270058/164081369/stock-photo-portrait-of-african-girl-pointing-at-smart-phone-on-white-background-164081369.jpg"> -->
-							<img src="http://image.shutterstock.com/display_pic_with_logo/1235890/304243838/stock-photo-two-colleages-discussing-ideas-using-a-tablet-computer-304243838.jpg">
+							<img src="http://image.shutterstock.com/display_pic_with_logo/270058/164081369/stock-photo-portrait-of-african-girl-pointing-at-smart-phone-on-white-background-164081369.jpg">
+							<!-- <img src="http://image.shutterstock.com/display_pic_with_logo/1235890/304243838/stock-photo-two-colleages-discussing-ideas-using-a-tablet-computer-304243838.jpg"> -->
 						</div>
 					</div>
 
@@ -86,6 +86,9 @@
 			<div class="container-fluid	">
 				<div class="section">
 					 <div class="parallax-container">
+					 	<div class="para-info">
+					 		<p>Stay on top <br/>of your money <br /> with Paa Daily</p>
+					 	</div>
 					    <div class="parallax"><img src="img/2.jpg"></div>
 					  </div>
 				</div>
